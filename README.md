@@ -12,6 +12,13 @@ Requirements:
 
 
 -Use Assets to configure: url, exit and entry roots (ruras de salida y entrada), email credentials from which the report will be sent
+page_URL
+email_credentials	email_credentials
+Archivos_Recibidos	Archivos_Recibidos
+Base	Base
+Logs	Logs
+Trazabilidad	Trazabilidad
+
 
 
 1-directory structure on path: "C:\users\...\Documents\robot" structured as follows:
