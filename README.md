@@ -42,3 +42,13 @@ Realizar xlm con 3 hojas con los informes, el xml debe ser enviado por correo
 
 -Remove the three SetTransactionStatus activities from the SetTransactionStatus workflow as we are not using the transaction functionality provided by Orchestrator.
 
+
+
+-Change log location:
+It is possible to change the default location of UiPath Studio log files. To do this, open the file UiPath.Studio.exe.config. This file is located inside the installation folder of UiPath.
+
+For example, C:\Users\<username>\AppData\Local\UiPath\app-19.2.0\UiPath.Studio.exe.config
+
+Open this config file using any text editor such as a Notepad.
+
+Simply change the value of the logDirectory parameter. This can be found under the nlog tag. The value of the logDirectory parameter is set to %LocalApplicationData%\UiPath\Logs. Update this location to reflect the desired location to save the logs.
