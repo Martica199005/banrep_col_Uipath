@@ -38,3 +38,7 @@ Realizar xlm con 3 hojas con los informes, el xml debe ser enviado por correo
 
 
 
+-The TransactionItem variable in the Main file should be of the System.Data.DataRow type, as we are extracting the entire table to process it one row at a time. You should also change the argument type in the GetTransactionData, Process and SetTransactionStatus workflows to match the TransactionItem type.
+
+-Remove the three SetTransactionStatus activities from the SetTransactionStatus workflow as we are not using the transaction functionality provided by Orchestrator.
+
