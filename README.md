@@ -52,3 +52,7 @@ For example, C:\Users\<username>\AppData\Local\UiPath\app-19.2.0\UiPath.Studio.e
 Open this config file using any text editor such as a Notepad.
 
 Simply change the value of the logDirectory parameter. This can be found under the nlog tag. The value of the logDirectory parameter is set to %LocalApplicationData%\UiPath\Logs. Update this location to reflect the desired location to save the logs.
+
+
+
+--Get App Credentials: install package Uipath.Credentials.Activity
