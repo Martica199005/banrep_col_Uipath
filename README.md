@@ -34,6 +34,14 @@ Trazabilidad:
 
 from the Banco de la republica page  must be downloaded in csv format the followinf data:
 
+
+SMPT EMAIL
+ssue has been solved, have you enabled less secure apps in your gmail account ?. Kindly enable less secure apps then you will able to send the mails. use below link to enable.
+
+https://myaccount.google.com/lesssecureapps?pli=1 414
+
+
+
 a- informe de la tasa representativa de cambio cop-usd  1-1-2020 31-12-2020
 
 b-... cop-euros 1-1-2020 31-12-2020
